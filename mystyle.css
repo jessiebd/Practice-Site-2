@@ -11,16 +11,34 @@ table {
 }
 h1,h2,h3,h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-variant: small-caps;
+    font-weight: 300;
 }
 h2,h3,h4 {
     color: coral;
+}
+div.one {
+    font-size: x-large;
+    border: 10px solid #AA88FF;
+    background-color: #DDDDDD;
+    padding: 20px;
+}
+div.two {
+    color: palevioletred;
+    Margin-left: 20px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 p {
     Margin-left: 20px;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-aside {
-    outline-color: coral;
+ul {
+    outline-color: aquamarine;
+    outline-style: dashed;
+    outline-width: 10px;
+}
+footer {
+    outline-style: double;
+    outline-width: 10px;
 }
