@@ -9,3 +9,6 @@ h1 {
 table {
     color:azure;
 }
+h1,h2,h3,h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
