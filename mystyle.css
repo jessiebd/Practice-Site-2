@@ -1,9 +1,9 @@
 body {
-    background-color: lightblue
+    background-color: rgb(212, 175, 233)
 }
 
 h1 {
-    color: rgb(243, 83, 9);
+    color: rgb(116, 73, 24);
     margin-left: 50px;
 }
 table {
@@ -14,7 +14,7 @@ h1,h2,h3,h4 {
     font-weight: 300;
 }
 h2,h3,h4 {
-    color: coral;
+    color: rgb(116, 73, 24);
 }
 div.one {
     font-size: x-large;
@@ -28,12 +28,18 @@ div.two {
     font-size: large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+p.intro {
+    margin-left: 80px;
+    text-align: center;
+    font-size:larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 p {
     Margin-left: 20px;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-ul {
+ul+h1{
     outline-color: aquamarine;
     outline-style: dashed;
     outline-width: 10px;
@@ -41,4 +47,13 @@ ul {
 footer {
     outline-style: double;
     outline-width: 10px;
+    
+}
+div.Mason {
+    border: 1px solid #c3c3c3;
+    display: block;
+    align-content: center;
+}
+img {
+    border-radius: 50%;
 }
